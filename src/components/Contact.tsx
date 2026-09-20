@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Send, CheckCircle, Copy, MessageSquare, AlertCircle } from "lucide-react";
 import { GithubIcon, LinkedInIcon } from "./Icons";
@@ -132,11 +132,11 @@ export function Contact() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label htmlFor="contact-name" className="block text-xs text-slate-500 mb-2 font-medium">Name</label>
-                  <input id="contact-name" name="name" type="text" required value={formData.name} onChange={handleChange} placeholder="Jane Smith" className={inputCls} />
+                  <input id="contact-name" name="name" type="text" required value={formData.name} onChange={handleChange} placeholder="Piyush Naik" className={inputCls} />
                 </div>
                 <div>
                   <label htmlFor="contact-email" className="block text-xs text-slate-500 mb-2 font-medium">Email</label>
-                  <input id="contact-email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="jane@company.com" className={inputCls} />
+                  <input id="contact-email" name="email" type="email" required value={formData.email} onChange={handleChange} placeholder="xyz@company.com" className={inputCls} />
                 </div>
               </div>
               <div>
